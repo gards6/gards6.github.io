@@ -1,0 +1,35 @@
+body {
+    font-family: verdana, sans-serif;
+    padding: 50px;
+    max-width: 700px;
+    margin: auto;
+}
+
+.name {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+a {
+    color: #323bb8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+li {
+    display: inline;
+    font-size: large;
+    padding: 10px;
+}
+
+nav {
+    display: inline;
+    padding-left: 300px;
+}
+
+.socialIcon {
+    padding-left: 600px;
+}
