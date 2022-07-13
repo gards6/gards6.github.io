@@ -19,17 +19,20 @@ a:hover {
     text-decoration: underline;
 }
 
-li {
+li{
     display: inline;
     font-size: large;
     padding: 10px;
 }
 
 nav {
-    display: inline;
-    padding-left: 300px;
+    max-width: 700px;
+    white-space: nowrap;
+    text-align: right;
 }
 
-.socialIcon {
-    padding-left: 600px;
+.socialIcon, a {
+    text-align: right;
+    max-width: 700px;
+    white-space: nowrap;
 }
