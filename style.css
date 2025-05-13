@@ -5,6 +5,12 @@ body {
     margin: auto;
 }
 
+.bio-headers {
+    font-size: x-large;
+    color: #323bb8;
+
+}
+
 .name {
     font-size: x-large;
     font-weight: bold;
@@ -19,10 +25,15 @@ a:hover {
     text-decoration: underline;
 }
 
-li {
+.menu li {
+    color: black;
     display: inline;
     font-size: large;
     padding: 10px;
+}
+
+li {
+    padding: 4px;
 }
 
 nav {
@@ -53,4 +64,8 @@ img {
 
 .upp {
     padding-left: 10%;
+}
+
+.bio p {
+    margin-bottom: 20px;
 }
